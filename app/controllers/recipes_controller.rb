@@ -29,7 +29,7 @@ class RecipesController < ApplicationController
         :city,
         :state,
         :zipcode,
-        :address_type
+        :ingredient_type
       ]
     )
   end
