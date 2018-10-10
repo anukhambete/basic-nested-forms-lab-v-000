@@ -9,7 +9,7 @@ class RecipesController < ApplicationController
 
   def new
     @recipe = Recipe.new
-    @recipe.ingredients.build(address_type: '1')
+    @recipe.ingredients.build(ingredient_type: '1')
     @recipe.ingredients.build(address_type: '2')
   end
 
