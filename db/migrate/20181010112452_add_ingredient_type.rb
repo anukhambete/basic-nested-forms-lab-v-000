@@ -1,5 +1,5 @@
 class AddIngredientType < ActiveRecord::Migration
   def change
-    add_column :ingredient, :ingredient_type, :integer
+    add_column :ingredients, :ingredient_type, :string
   end
 end
