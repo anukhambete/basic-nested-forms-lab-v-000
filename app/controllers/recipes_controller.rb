@@ -26,9 +26,6 @@ class RecipesController < ApplicationController
       ingredients_attributes: [
         :street_address_1,
         :street_address_2,
-        :city,
-        :state,
-        :zipcode,
         :ingredient_type
       ]
     )
